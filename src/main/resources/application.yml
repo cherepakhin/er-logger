@@ -1,0 +1,5 @@
+kafka:
+  host: ${KAFKA_HOST:v.perm.ru:9093}
+  topic: ${KAFKA_TOPIC:logging1}
+
+usesimpledecoder: ${USE_SIMPLE_DECODER:0}
