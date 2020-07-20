@@ -1,1 +1,0 @@
-docker run --publish 8000:8080 --detach --name receiver receiver:0.1
