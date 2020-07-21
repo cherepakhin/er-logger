@@ -1,0 +1,63 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: er-logger
+  namespace: kafka-er
+  labels:
+    app: er-logger
+    app.kubernetes.io/component: er-logger
+    app.kubernetes.io/instance: er-logger
+    app.kubernetes.io/part-of: er-logger-app
+    app.openshift.io/runtime-namespace: kafka-er
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: er-logger
+  template:
+    metadata:
+      labels:
+        app: er-logger
+        deploymentconfig: er-logger
+    spec:
+      imagePullSecrets:
+      - name: registry.rd.ertelecom.ru
+      containers:
+        - resources:
+            limits:
+              cpu: '1'
+              memory: 1Gi
+          name: er-logger
+          image: registry.rd.ertelecom.ru/tvbe/er-logger
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+          env:
+          - name: KAFKA_HOST
+            value: kafka-svc.prod:9092
+          - name: KAFKA_TOPIC
+            value: er-log
+          - name: USE_SIMPLE_DECODER
+            value: "1"
+      restartPolicy: Always
+      securityContext: {}
+      schedulerName: default-scheduler
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  revisionHistoryLimit: 10
+  progressDeadlineSeconds: 600
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: er-logger-svc
+spec:
+  selector:
+    app: er-logger
+  ports:
+  - protocol: "TCP"
+    port: 8080
+  type: LoadBalancer

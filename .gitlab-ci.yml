@@ -66,3 +66,7 @@ build er-logger docker:
     - docker
   dependencies:
     - build er-logger jar
+#  only:
+#    - develop
+#    - /^v\d+\.\d+\.\d+$/
+#    - /^release\/\d+\.\d+\.\d+$/
