@@ -28,7 +28,7 @@ spec:
               cpu: '1'
               memory: 1Gi
           name: er-logger
-          image: registry.rd.ertelecom.ru/tvbe/er-logger
+          image: registry.rd.ertelecom.ru/tvbe/er-logger:master
           ports:
             - containerPort: 8080
               protocol: TCP

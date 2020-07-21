@@ -1,0 +1,18 @@
+serviceName: er-logger
+serviceNameSvc: er-logger-svc
+serviceNameApp: er-logger-app
+servicePort: 8080
+replicaCount: 1
+nameSpace: kafka-er
+imagePullSecrets: registry.rd.ertelecom.ru
+kafkaHost: kafka-svc.prod:9092
+kafkaTopic: er-log
+useSimpleDecoder: "1"
+image:
+  repository: registry.rd.ertelecom.ru/tvbe/er-logger
+  tag: master
+
+resources:
+  limits:
+     memory: 512Mi
+

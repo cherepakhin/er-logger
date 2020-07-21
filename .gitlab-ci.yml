@@ -1,7 +1,6 @@
 stages:
   - build artifacts
   - build containers
-
 variables:
   DOCKER_DRIVER: overlay2
   GRADLE_USER_HOME: $CI_PROJECT_DIR/.gradle
@@ -62,6 +61,7 @@ build er-logger docker:
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
     - docker build --rm -t $CI_REGISTRY_IMAGE:$IMAGE_TAG -f $DOCKER_FILE --build-arg GIT_COMMIT --build-arg GIT_BRANCH $DOCKER_BUILD_CONTEXT
     - docker push $CI_REGISTRY_IMAGE:$IMAGE_TAG
+    - kubectl apply -f er-logger-deploy.yaml
   tags:
     - docker
   dependencies:
@@ -70,3 +70,15 @@ build er-logger docker:
 #    - develop
 #    - /^v\d+\.\d+\.\d+$/
 #    - /^release\/\d+\.\d+\.\d+$/
+
+deploy:
+  image: registry.rd.ertelecom.ru/registry/helm_ci/helm:ci
+  stage: deploy
+  dependencies:
+    - build er-logger docker
+  script:
+    - |
+      helm template ./helm \
+      --set image.repository="$CI_REGISTRY_IMAGE" \
+      --set image.tag="$CI_COMMIT_REF_SLUG" \
+      kubectl apply	-f -
