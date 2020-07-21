@@ -36,6 +36,11 @@ public class EventDeviceController {
         this.executorService = Executors.newFixedThreadPool(100);
     }
 
+    @GetMapping("/")
+    public ResponseEntity<String> echo() {
+       return new ResponseEntity<>("ok",HttpStatus.OK);
+    }
+
     @PostMapping(consumes = {MediaType.APPLICATION_FORM_URLENCODED_VALUE})
     @RequestMapping("/logging/device/events/async")
     public CompletableFuture<ResponseEntity<String>> receiveEventAsync(HttpServletRequest httpServletRequest,
