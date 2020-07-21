@@ -81,4 +81,5 @@ deploy:
       --set image.tag="$CI_COMMIT_REF_SLUG" |\
       kubectl apply	-f -
   environment:
+    name: review/$CI_COMMIT_REF_NAME
     url: https://console-openshift-console.apps.okd.perm.ertelecom.ru:6443
