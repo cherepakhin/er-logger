@@ -1,4 +1,6 @@
 stages:
+  - build artifacts
+  - build containers
   - deploy
 variables:
   DOCKER_DRIVER: overlay2
@@ -72,8 +74,8 @@ build er-logger docker:
 deploy:
   image: registry.rd.ertelecom.ru/registry/helm_ci/helm:ci
   stage: deploy
-#  dependencies:
-#    - build er-logger docker
+  dependencies:
+    - build er-logger docker
   script:
     - |
       helm template ./helm \
