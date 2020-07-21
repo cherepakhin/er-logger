@@ -36,9 +36,12 @@ public class EventDeviceController {
         this.executorService = Executors.newFixedThreadPool(100);
     }
 
-    @GetMapping("/")
-    public ResponseEntity<String> echo() {
-       return new ResponseEntity<>("ok",HttpStatus.OK);
+    @GetMapping(value = {"/","/{msg}"})
+    public ResponseEntity<String> echo(@PathVariable(name = "msg", required = false) String msg) {
+        if (msg == null) {
+            msg = "-";
+        }
+        return new ResponseEntity<>("ok:" + msg, HttpStatus.OK);
     }
 
     @PostMapping(consumes = {MediaType.APPLICATION_FORM_URLENCODED_VALUE})
@@ -78,7 +81,7 @@ public class EventDeviceController {
     @PostMapping(consumes = {MediaType.APPLICATION_FORM_URLENCODED_VALUE})
     @RequestMapping("/logging/device/events/stub")
     public ResponseEntity<String> receiveEventStub(HttpServletRequest httpServletRequest,
-                                               @RequestBody MultiValueMap<String, Object> body) {
+                                                   @RequestBody MultiValueMap<String, Object> body) {
         if (!existTokenInHeader(httpServletRequest)) {
             return new ResponseEntity<>(HttpStatus.FORBIDDEN);
         }
