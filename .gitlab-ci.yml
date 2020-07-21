@@ -62,7 +62,6 @@ build er-logger docker:
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
     - docker build --rm -t $CI_REGISTRY_IMAGE:$IMAGE_TAG -f $DOCKER_FILE --build-arg GIT_COMMIT --build-arg GIT_BRANCH $DOCKER_BUILD_CONTEXT
     - docker push $CI_REGISTRY_IMAGE:$IMAGE_TAG
-    - kubectl apply -f er-logger-deploy.yaml
   tags:
     - docker
   dependencies:
