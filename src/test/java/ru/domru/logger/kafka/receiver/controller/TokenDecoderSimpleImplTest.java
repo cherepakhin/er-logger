@@ -19,7 +19,7 @@ public class TokenDecoderSimpleImplTest {
         assertTrue(info.containsKey("device"));
         Map<String, Object> device = (Map<String, Object>) info.get("device");
         assertTrue(device.containsKey("id"));
-        assertEquals(97719470, device.get("id"));
+        assertEquals("mac:d4:cf:f9:1b:ff:10", device.get("id"));
         assertTrue(device.containsKey("platform"));
         assertEquals("android_iptv",device.get("platform"));
 

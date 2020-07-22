@@ -52,4 +52,11 @@ public class EventsBuilderTest {
         assertTrue(event.containsKey("INFO1"));
         assertTrue(event.containsKey("INFO2"));
     }
+
+    @Test
+    public void decodeTimestamp() {
+        EventsBuilder eventsBuilder = new EventsBuilder();
+        assertEquals("2020-04-10T11:58Z", eventsBuilder.decodeTimestamp(1586501905));
+        assertEquals("2020-04-10T11:58Z", eventsBuilder.decodeTimestamp("1586501905"));
+    }
 }

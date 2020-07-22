@@ -21,7 +21,7 @@ public class TokenDecoderSimpleImpl implements ITokenDecoder {
         Map<String, Object> map = mapper.readValue(data, new TypeReference<Map<String, Object>>() {
         });
         Map<String, Object> principal = (Map<String, Object>) map.get("principal");
-        device.put("id", principal.get("id"));
+        device.put("id", principal.get("extid"));
         Map<String, Object> platform = (Map<String, Object>) principal.get("platform");
         device.put("platform", platform.get("extid"));
         info.put("device", device);

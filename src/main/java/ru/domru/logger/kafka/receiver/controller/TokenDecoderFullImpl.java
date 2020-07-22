@@ -20,7 +20,7 @@ public class TokenDecoderFullImpl implements ITokenDecoder {
         Token token = deserializeToken(tokenString);
 
         Map<String, Object> device = new HashMap<>();
-        device.put("id", token.getPrincipal().getId());
+        device.put("id", token.getPrincipal().getExtId());
         device.put("platform", token.getPrincipal().getPlatform().getExtId());
         info.put("device", device);
 

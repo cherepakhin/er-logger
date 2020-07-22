@@ -1,0 +1,1585 @@
+{
+  "events": [
+    {
+      "data": {
+        "identifier": 1838387,
+        "tag": "poster_channel_grid_blueprint",
+        "appversion": "1.32.0",
+        "subtype": "image.resource.missing.error",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501905,
+      "uuid": "fa49ee71-2549-4737-8032-1b2cd0a15618"
+    },
+    {
+      "data": {
+        "identifier": 465538,
+        "tag": "3_smarttv_package_poster_video_library_blueprint",
+        "appversion": "1.32.0",
+        "subtype": "image.resource.missing.error",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501905,
+      "uuid": "77865af3-ee05-438c-8456-feb4d1a7ae91"
+    },
+    {
+      "data": {
+        "identifier": 465538,
+        "tag": "3_smarttv_package_background_video_library_blueprint",
+        "appversion": "1.32.0",
+        "subtype": "image.resource.missing.error",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501905,
+      "uuid": "2538efd7-bf68-4b7e-bfe5-522a7461bf69"
+    },
+    {
+      "data": {
+        "arguments": {
+          "timestamp": "1586501911",
+          "client_id": "er_android_iptv_device_secure",
+          "device_id": "mac:D4:CF:F9:1B:FF:10",
+          "signature": "f6b4be727bc25d0f106f6478ca83976f"
+        },
+        "method": "GET",
+        "uri": "/token/device",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 1310,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501911,
+      "uuid": "d5a82668-119b-4dcf-b325-ffb8ec9b0eff"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/resource/get_origin_list",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 97,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501915,
+      "uuid": "ffab5c75-5fd3-422a-95e2-63bfaa6f747f"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/er/multiscreen/status",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 52,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501915,
+      "uuid": "02625c61-c260-48ba-88d1-21c51d09c01d"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/parental_control/levels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 91,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501915,
+      "uuid": "54c8055f-89b2-4b79-8a3f-559ce7ec93a1"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/er/catchup/status",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 49,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501915,
+      "uuid": "282636fc-2c81-490c-8ca7-f84e48e42e2e"
+    },
+    {
+      "data": {
+        "arguments": {
+          "limit": "15"
+        },
+        "method": "GET",
+        "uri": "/api/v3/pages/library",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 1766,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501915,
+      "uuid": "8e5433c5-5928-4370-a5ed-173978e55989"
+    },
+    {
+      "data": {
+        "appversion": "1.32.0",
+        "time": 5925,
+        "subtype": "screen.launcher.metric",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501918,
+      "uuid": "96125612-ad54-4149-83f8-a221dc08b9e3"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/parental_control/status",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 44,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501918,
+      "uuid": "9ad227c6-4b7e-47a0-b1e5-7ab5d5aa0b97"
+    },
+    {
+      "data": {
+        "arguments": {
+          "offset": "10"
+        },
+        "method": "GET",
+        "uri": "/api/v3/showcases/library/channels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 414,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501918,
+      "uuid": "c4823e11-e0a4-4bea-90c3-4dc1959864e7"
+    },
+    {
+      "data": {
+        "arguments": {
+          "offset": "20"
+        },
+        "method": "GET",
+        "uri": "/api/v3/showcases/library/channels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 326,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501919,
+      "uuid": "10124121-bd83-4c93-b514-bd296158af7d"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/er/misc/subscriber/agreement_number",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 103,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501946,
+      "uuid": "565bb3cd-5f1d-42a9-bc26-3a776a3a8e22"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/resource/get_origin_list",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 42,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501949,
+      "uuid": "ddb9b6c6-a79f-4231-aaea-f29ddb7148fa"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/parental_control/levels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 44,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501949,
+      "uuid": "f2d38b55-0d3a-42e7-88bf-dc9992fea601"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/er/multiscreen/status",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 92,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501949,
+      "uuid": "7a50502f-4b5c-4de7-a813-07e1145fd501"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/er/catchup/status",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 39,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501950,
+      "uuid": "78f66e8b-8d08-4afe-b1a6-e1186fe1219f"
+    },
+    {
+      "data": {
+        "arguments": {
+          "limit": "15"
+        },
+        "method": "GET",
+        "uri": "/api/v3/pages/library",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 1092,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501950,
+      "uuid": "c4cf1955-38e9-4005-ac77-054c9ae00804"
+    },
+    {
+      "data": {
+        "appversion": "1.32.0",
+        "time": 5337,
+        "subtype": "screen.launcher.metric",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501952,
+      "uuid": "0d06ed39-044b-4279-819e-7da2b6d02ab1"
+    },
+    {
+      "data": {
+        "arguments": {
+          "offset": "10"
+        },
+        "method": "GET",
+        "uri": "/api/v3/showcases/library/channels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 439,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501952,
+      "uuid": "affe1145-a98d-40f4-842a-063536e0f43a"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/er/multiscreen/status",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 90,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501966,
+      "uuid": "0dfe3119-45ae-48d7-8247-bf65123f6855"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/er/catchup/status",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 43,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501966,
+      "uuid": "d394514c-098d-45d4-a2d8-77a2d558abe9"
+    },
+    {
+      "data": {
+        "arguments": {
+          "limit": "15"
+        },
+        "method": "GET",
+        "uri": "/api/v3/pages/library",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 1126,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501966,
+      "uuid": "462cb3aa-a05a-4804-a5e8-76a921594485"
+    },
+    {
+      "data": {
+        "appversion": "1.32.0",
+        "time": 5333,
+        "subtype": "screen.launcher.metric",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501968,
+      "uuid": "d043aead-6e7f-482f-b17d-f52a32e52dbd"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/parental_control/status",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 65,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501968,
+      "uuid": "85bc00a4-73f1-4dc6-a6f6-0445016cd561"
+    },
+    {
+      "data": {
+        "arguments": {
+          "offset": "10"
+        },
+        "method": "GET",
+        "uri": "/api/v3/showcases/library/channels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 335,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501968,
+      "uuid": "b30dced2-a993-45fd-81a8-65e1d6ed124c"
+    },
+    {
+      "data": {
+        "arguments": {
+          "offset": "20"
+        },
+        "method": "GET",
+        "uri": "/api/v3/showcases/library/channels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 373,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501969,
+      "uuid": "0f846c2e-3eb8-46b3-96c8-3d9db8bdf128"
+    },
+    {
+      "data": {
+        "arguments": {
+          "limit": "15"
+        },
+        "method": "GET",
+        "uri": "/api/v3/pages/library",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 1428,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501971,
+      "uuid": "0f403ddf-00ef-4a31-b438-e0da5a3285e7"
+    },
+    {
+      "data": {
+        "appversion": "1.32.0",
+        "time": 1950,
+        "subtype": "screen.launcher.metric",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501972,
+      "uuid": "f41d704d-dce6-429d-8491-b1c0edb2796e"
+    },
+    {
+      "data": {
+        "arguments": {
+          "offset": "10"
+        },
+        "method": "GET",
+        "uri": "/api/v3/showcases/library/channels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 339,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501972,
+      "uuid": "7b30ccd3-af3b-4998-a694-d29d1956e5da"
+    },
+    {
+      "data": {
+        "arguments": {
+          "offset": "20"
+        },
+        "method": "GET",
+        "uri": "/api/v3/showcases/library/channels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 274,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501973,
+      "uuid": "690b5b8a-aead-432d-9c54-758415a7cf0c"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/er/billing/channel_list/packages",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 602,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501975,
+      "uuid": "2146923b-b58b-46fb-8e8b-4650ee1b0bdb"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/channel_list/multiscreen",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 875,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501975,
+      "uuid": "b77b52a8-c317-4b4a-ad43-7556792ebe43"
+    },
+    {
+      "data": {
+        "identifier": 1838387,
+        "tag": "poster_channel_grid_blueprint",
+        "appversion": "1.32.0",
+        "subtype": "image.resource.missing.error",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501977,
+      "uuid": "b9b7cf74-0795-4090-8cda-044ce8e7f4a2"
+    },
+    {
+      "data": {
+        "identifier": 465538,
+        "tag": "3_smarttv_package_poster_video_library_blueprint",
+        "appversion": "1.32.0",
+        "subtype": "image.resource.missing.error",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501977,
+      "uuid": "9d241382-a35d-4865-b0ba-ef9e110f3b7d"
+    },
+    {
+      "data": {
+        "identifier": 465538,
+        "tag": "3_smarttv_package_background_video_library_blueprint",
+        "appversion": "1.32.0",
+        "subtype": "image.resource.missing.error",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501977,
+      "uuid": "e055e6bf-0918-4d91-989f-b4bf45210092"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/channel_list/lists",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 277,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501978,
+      "uuid": "af79b11d-2e00-448d-a779-5873a0aecac6"
+    },
+    {
+      "data": {
+        "identifier": 1838387,
+        "tag": "poster_channel_grid_blueprint",
+        "appversion": "1.32.0",
+        "subtype": "image.resource.missing.error",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501978,
+      "uuid": "31edfe33-3027-4974-8dc1-2572ed32c1fc"
+    },
+    {
+      "data": {
+        "identifier": 465538,
+        "tag": "3_smarttv_package_poster_video_library_blueprint",
+        "appversion": "1.32.0",
+        "subtype": "image.resource.missing.error",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501979,
+      "uuid": "e72a61a0-374e-43d0-84d4-c9ac02ce8d18"
+    },
+    {
+      "data": {
+        "identifier": 465538,
+        "tag": "3_smarttv_package_background_video_library_blueprint",
+        "appversion": "1.32.0",
+        "subtype": "image.resource.missing.error",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501979,
+      "uuid": "0ec580b6-f19a-4bb4-a423-607a6267ff89"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/favorite/assets",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 102,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501979,
+      "uuid": "e271faa6-a99d-47b7-b145-e06613d47923"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/resource/get_url/1815389/11781538",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 66,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501979,
+      "uuid": "5183f8d6-cf38-45ca-8a50-087b3d8eea57"
+    },
+    {
+      "data": {
+        "asset_id": 1815389,
+        "type": "live_hls_local",
+        "url": "http://er-cdn.ertelecom.ru/os/video/hls/d74f155cb8a2902ed91cb7c6afe4c5c2d338a77ac838205e19562beee48a54d193ece68b41234fc8c58cbe8c0edf4156d4c793c5464cf1f83df9b7502c59a624aafdaf9513ef03b5932deed244f79e0a635385fb20d116ca45e0c03697e56bd9da6b9a16a5feb961157b6f5aeadbe3005787f59c3352ae57016dd74a62e5b9fb50a07f48ad0febd74b84ef658bc2d6a92c1e31ef23d0562d0fbf517972754f84ffbadd5e09db9b7242c2e0ccd9effd0d0c3116fa2b06e7a0555ee7db15a84b34fa45fc6466f0f51aab62ec7a48502a4ce06092b41e64623a1b4c967a21965d5077772a0c04185bcb6b0686ce19c972f2bdcf1dc027ab5377f3fbcb924e5f53b08ce7978a9c9b71686c2f0c95bc866a4b117b25e2d8b23e4f37e4508d61dfef47ac4c55048cce391bc8e2672c47505d1e6d1f4109f5c4b5b044912d0c01120e6996eb35441aeb45c659a59fec35db04621d734ae55917e5d289157e9d6ebbb09a/playlist.m3u8",
+        "appversion": "1.32.0",
+        "time": 113,
+        "subtype": "player.metric.goturl",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501979,
+      "uuid": "48e61107-f093-4693-b027-d5cca93c820f"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1815389,
+            "resource_id": 11781538
+          },
+          "channel_sid": 102,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/d74f155cb8a2902ed91cb7c6afe4c5c2d338a77ac838205e19562beee48a54d193ece68b41234fc8c58cbe8c0edf4156d4c793c5464cf1f83df9b7502c59a624aafdaf9513ef03b5932deed244f79e0a635385fb20d116ca45e0c03697e56bd9da6b9a16a5feb961157b6f5aeadbe3005787f59c3352ae57016dd74a62e5b9fb50a07f48ad0febd74b84ef658bc2d6a92c1e31ef23d0562d0fbf517972754f84ffbadd5e09db9b7242c2e0ccd9effd0d0c3116fa2b06e7a0555ee7db15a84b34fa45fc6466f0f51aab62ec7a48502a4ce06092b41e64623a1b4c967a21965d5077772a0c04185bcb6b0686ce19c972f2bdcf1dc027ab5377f3fbcb924e5f53b08ce7978a9c9b71686c2f0c95bc866a4b117b25e2d8b23e4f37e4508d61dfef47ac4c55048cce391bc8e2672c47505d1e6d1f4109f5c4b5b044912d0c01120e6996eb35441aeb45c659a59fec35db04621d734ae55917e5d289157e9d6ebbb09a/playlist.m3u8",
+          "type": "live_hls_local"
+        },
+        "state": "GOTSOURCE",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501979,
+      "uuid": "714432cb-9f0c-448f-94a9-b769e368e9e0"
+    },
+    {
+      "data": {
+        "asset_id": 1815389,
+        "type": "live_hls_local",
+        "url": "http://er-cdn.ertelecom.ru/os/video/hls/d74f155cb8a2902ed91cb7c6afe4c5c2d338a77ac838205e19562beee48a54d193ece68b41234fc8c58cbe8c0edf4156d4c793c5464cf1f83df9b7502c59a624aafdaf9513ef03b5932deed244f79e0a635385fb20d116ca45e0c03697e56bd9da6b9a16a5feb961157b6f5aeadbe3005787f59c3352ae57016dd74a62e5b9fb50a07f48ad0febd74b84ef658bc2d6a92c1e31ef23d0562d0fbf517972754f84ffbadd5e09db9b7242c2e0ccd9effd0d0c3116fa2b06e7a0555ee7db15a84b34fa45fc6466f0f51aab62ec7a48502a4ce06092b41e64623a1b4c967a21965d5077772a0c04185bcb6b0686ce19c972f2bdcf1dc027ab5377f3fbcb924e5f53b08ce7978a9c9b71686c2f0c95bc866a4b117b25e2d8b23e4f37e4508d61dfef47ac4c55048cce391bc8e2672c47505d1e6d1f4109f5c4b5b044912d0c01120e6996eb35441aeb45c659a59fec35db04621d734ae55917e5d289157e9d6ebbb09a/playlist.m3u8",
+        "appversion": "1.32.0",
+        "time": 552,
+        "subtype": "player.metric.prepared",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501980,
+      "uuid": "3453f505-8931-487a-a59d-2774914d89a7"
+    },
+    {
+      "data": {
+        "asset_id": 1815389,
+        "type": "live_hls_local",
+        "url": "http://er-cdn.ertelecom.ru/os/video/hls/d74f155cb8a2902ed91cb7c6afe4c5c2d338a77ac838205e19562beee48a54d193ece68b41234fc8c58cbe8c0edf4156d4c793c5464cf1f83df9b7502c59a624aafdaf9513ef03b5932deed244f79e0a635385fb20d116ca45e0c03697e56bd9da6b9a16a5feb961157b6f5aeadbe3005787f59c3352ae57016dd74a62e5b9fb50a07f48ad0febd74b84ef658bc2d6a92c1e31ef23d0562d0fbf517972754f84ffbadd5e09db9b7242c2e0ccd9effd0d0c3116fa2b06e7a0555ee7db15a84b34fa45fc6466f0f51aab62ec7a48502a4ce06092b41e64623a1b4c967a21965d5077772a0c04185bcb6b0686ce19c972f2bdcf1dc027ab5377f3fbcb924e5f53b08ce7978a9c9b71686c2f0c95bc866a4b117b25e2d8b23e4f37e4508d61dfef47ac4c55048cce391bc8e2672c47505d1e6d1f4109f5c4b5b044912d0c01120e6996eb35441aeb45c659a59fec35db04621d734ae55917e5d289157e9d6ebbb09a/playlist.m3u8",
+        "appversion": "1.32.0",
+        "time": 938,
+        "subtype": "player.metric",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501980,
+      "uuid": "5347a5bd-f3e0-4929-a458-06f0de736493"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1815389,
+            "resource_id": 11781538
+          },
+          "channel_sid": 102,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/d74f155cb8a2902ed91cb7c6afe4c5c2d338a77ac838205e19562beee48a54d193ece68b41234fc8c58cbe8c0edf4156d4c793c5464cf1f83df9b7502c59a624aafdaf9513ef03b5932deed244f79e0a635385fb20d116ca45e0c03697e56bd9da6b9a16a5feb961157b6f5aeadbe3005787f59c3352ae57016dd74a62e5b9fb50a07f48ad0febd74b84ef658bc2d6a92c1e31ef23d0562d0fbf517972754f84ffbadd5e09db9b7242c2e0ccd9effd0d0c3116fa2b06e7a0555ee7db15a84b34fa45fc6466f0f51aab62ec7a48502a4ce06092b41e64623a1b4c967a21965d5077772a0c04185bcb6b0686ce19c972f2bdcf1dc027ab5377f3fbcb924e5f53b08ce7978a9c9b71686c2f0c95bc866a4b117b25e2d8b23e4f37e4508d61dfef47ac4c55048cce391bc8e2672c47505d1e6d1f4109f5c4b5b044912d0c01120e6996eb35441aeb45c659a59fec35db04621d734ae55917e5d289157e9d6ebbb09a/playlist.m3u8",
+          "type": "live_hls_local"
+        },
+        "state": "PREPARED",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501980,
+      "uuid": "10511a9b-2d6f-4f82-b29a-86c32ed1eb9b"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1815389,
+            "resource_id": 11781538
+          },
+          "channel_sid": 102,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/d74f155cb8a2902ed91cb7c6afe4c5c2d338a77ac838205e19562beee48a54d193ece68b41234fc8c58cbe8c0edf4156d4c793c5464cf1f83df9b7502c59a624aafdaf9513ef03b5932deed244f79e0a635385fb20d116ca45e0c03697e56bd9da6b9a16a5feb961157b6f5aeadbe3005787f59c3352ae57016dd74a62e5b9fb50a07f48ad0febd74b84ef658bc2d6a92c1e31ef23d0562d0fbf517972754f84ffbadd5e09db9b7242c2e0ccd9effd0d0c3116fa2b06e7a0555ee7db15a84b34fa45fc6466f0f51aab62ec7a48502a4ce06092b41e64623a1b4c967a21965d5077772a0c04185bcb6b0686ce19c972f2bdcf1dc027ab5377f3fbcb924e5f53b08ce7978a9c9b71686c2f0c95bc866a4b117b25e2d8b23e4f37e4508d61dfef47ac4c55048cce391bc8e2672c47505d1e6d1f4109f5c4b5b044912d0c01120e6996eb35441aeb45c659a59fec35db04621d734ae55917e5d289157e9d6ebbb09a/playlist.m3u8",
+          "type": "live_hls_local"
+        },
+        "extra": {
+          "position": 0
+        },
+        "state": "PLAYING",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501980,
+      "uuid": "4cf8685d-9cf1-4be3-88a6-86f27d208c41"
+    },
+    {
+      "data": {
+        "appversion": "1.32.0",
+        "time": 109,
+        "subtype": "block.player_tv_guide.metric",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501984,
+      "uuid": "92206fff-2545-4821-97c0-40c1808f21c6"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1815389,
+            "resource_id": 11781538
+          },
+          "channel_sid": 102,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/d74f155cb8a2902ed91cb7c6afe4c5c2d338a77ac838205e19562beee48a54d193ece68b41234fc8c58cbe8c0edf4156d4c793c5464cf1f83df9b7502c59a624aafdaf9513ef03b5932deed244f79e0a635385fb20d116ca45e0c03697e56bd9da6b9a16a5feb961157b6f5aeadbe3005787f59c3352ae57016dd74a62e5b9fb50a07f48ad0febd74b84ef658bc2d6a92c1e31ef23d0562d0fbf517972754f84ffbadd5e09db9b7242c2e0ccd9effd0d0c3116fa2b06e7a0555ee7db15a84b34fa45fc6466f0f51aab62ec7a48502a4ce06092b41e64623a1b4c967a21965d5077772a0c04185bcb6b0686ce19c972f2bdcf1dc027ab5377f3fbcb924e5f53b08ce7978a9c9b71686c2f0c95bc866a4b117b25e2d8b23e4f37e4508d61dfef47ac4c55048cce391bc8e2672c47505d1e6d1f4109f5c4b5b044912d0c01120e6996eb35441aeb45c659a59fec35db04621d734ae55917e5d289157e9d6ebbb09a/playlist.m3u8",
+          "type": "live_hls_local"
+        },
+        "extra": {
+          "position": 0
+        },
+        "state": "STOPPED",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501990,
+      "uuid": "7566157b-e87e-4312-8c4e-1feec18a0497"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/resource/get_url/1144421/4130755",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 146,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501990,
+      "uuid": "4e16e366-7124-45b7-8efb-73e6e4011460"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1144421,
+            "resource_id": 4130755
+          },
+          "channel_sid": 402,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/d74f155cb8a2902ed91cb7c6afe4c5c2d338a77ac838205e19562beee48a54d193ece68b41234fc8c58cbe8c0edf4156d4c793c5464cf1f83df9b7502c59a624aafdaf9513ef03b5932deed244f79e0a635385fb20d116ca45e0c03697e56bd9da6b9a16a5feb961157b6f5aeadbe3005787f59c3352ae57016dd74a62e5b9fb50a07f48ad0febd74b84ef658bc2d6a92c1e31ef23d0562d0fbf517972754f84ffbadd5e09db9b7242c2e0ccd9effd0d0c3116fa2b06e7a0555ee7db15a84b34fa45fc6466f0f51aab62ec7a48502a4ce06092b41e64623a1b4c967a21965d5077772a0c04185bcb6b0686ce19c972f2bdcf1dc027ab5377f3fbcb924e5f53b08ce7978a9c9b71686c2f0c95bc866a4b117b25e2d8b23e4f37e4508d61dfef47ac4c55048cce391bc8e2672c47505d1e6d1f4109f5c4b5b044912d0c01120e6996eb35441aeb45c659a59fec35db04621d734ae55917e5d289157e9d6ebbb09a/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "extra": {
+          "position": 0
+        },
+        "state": "STOPPED",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501991,
+      "uuid": "37a87c74-be02-4cdf-a563-0877545e74ab"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1144423,
+            "resource_id": 4130684
+          },
+          "channel_sid": 1505,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/d74f155cb8a2902ed91cb7c6afe4c5c2d338a77ac838205e19562beee48a54d193ece68b41234fc8c58cbe8c0edf4156d4c793c5464cf1f83df9b7502c59a624aafdaf9513ef03b5932deed244f79e0a635385fb20d116ca45e0c03697e56bd9da6b9a16a5feb961157b6f5aeadbe3005787f59c3352ae57016dd74a62e5b9fb50a07f48ad0febd74b84ef658bc2d6a92c1e31ef23d0562d0fbf517972754f84ffbadd5e09db9b7242c2e0ccd9effd0d0c3116fa2b06e7a0555ee7db15a84b34fa45fc6466f0f51aab62ec7a48502a4ce06092b41e64623a1b4c967a21965d5077772a0c04185bcb6b0686ce19c972f2bdcf1dc027ab5377f3fbcb924e5f53b08ce7978a9c9b71686c2f0c95bc866a4b117b25e2d8b23e4f37e4508d61dfef47ac4c55048cce391bc8e2672c47505d1e6d1f4109f5c4b5b044912d0c01120e6996eb35441aeb45c659a59fec35db04621d734ae55917e5d289157e9d6ebbb09a/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "extra": {
+          "position": 0
+        },
+        "state": "STOPPED",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501991,
+      "uuid": "255b5e2e-8b5f-433e-b19b-3cdd1e5ded46"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/resource/get_url/1144421/4130755",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 73,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501991,
+      "uuid": "b5f97b32-f2b8-4d7f-ba4c-3818377bf966"
+    },
+    {
+      "data": {
+        "asset_id": 1144421,
+        "type": "live_hls",
+        "url": "http://er-cdn.ertelecom.ru/os/video/hls/2611826ff7a1655aa82c0e4b729ae80b4a8306f65862aa4658550e00ed228d2758005bd51e06a3d3bf1f72cda70927137a864f2c5c97c707f124d5c92a2c0f7d238d38658c006824842a5e3bd2c4369720d7e6a7f46079e0db2e5de6670224f8cd2cb107e6ca4e1e7fa90b70030b62496775a55dd189da3597a2837281a913074301d9f0b8b36b0f8a3593195f8b1dc86d2ddaaeb98c45af67a894455f927039c33c6e1b848d93e5fb0730d84aa48a42b920618665d07fc0a0f6a35889a71dcf51a68facf831284ec27352a21e4e9f813217d495847ef767089b6c0a97df1277303bd1d45e5308aa43560fc84e2b29bf8c75bdd318567face99e617bd8c321ecc6b1b5ae80590b5b5440e539e5a4a29d2348b0383e7a8c3a254b7792f13392ff78dc0f25b8a7a0fcd1257d6ebc0e58aecf8dd3602055cc35cd4d2ed33dadbb3c79dbe54fd9b2278b6ff8601a213523cf226c56612d73f0e22993df80df99ed91/playlist.m3u8",
+        "appversion": "1.32.0",
+        "time": 387,
+        "subtype": "player.metric.goturl",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501991,
+      "uuid": "0175d2ae-2584-4920-bf4e-ddd8be4d4670"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1144421,
+            "resource_id": 4130755
+          },
+          "channel_sid": 402,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/2611826ff7a1655aa82c0e4b729ae80b4a8306f65862aa4658550e00ed228d2758005bd51e06a3d3bf1f72cda70927137a864f2c5c97c707f124d5c92a2c0f7d238d38658c006824842a5e3bd2c4369720d7e6a7f46079e0db2e5de6670224f8cd2cb107e6ca4e1e7fa90b70030b62496775a55dd189da3597a2837281a913074301d9f0b8b36b0f8a3593195f8b1dc86d2ddaaeb98c45af67a894455f927039c33c6e1b848d93e5fb0730d84aa48a42b920618665d07fc0a0f6a35889a71dcf51a68facf831284ec27352a21e4e9f813217d495847ef767089b6c0a97df1277303bd1d45e5308aa43560fc84e2b29bf8c75bdd318567face99e617bd8c321ecc6b1b5ae80590b5b5440e539e5a4a29d2348b0383e7a8c3a254b7792f13392ff78dc0f25b8a7a0fcd1257d6ebc0e58aecf8dd3602055cc35cd4d2ed33dadbb3c79dbe54fd9b2278b6ff8601a213523cf226c56612d73f0e22993df80df99ed91/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "state": "GOTSOURCE",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501991,
+      "uuid": "0946c13e-ac1a-4ad2-bfaa-4962df2bc8cb"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1144421,
+            "resource_id": 4130755
+          },
+          "channel_sid": 402,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/2611826ff7a1655aa82c0e4b729ae80b4a8306f65862aa4658550e00ed228d2758005bd51e06a3d3bf1f72cda70927137a864f2c5c97c707f124d5c92a2c0f7d238d38658c006824842a5e3bd2c4369720d7e6a7f46079e0db2e5de6670224f8cd2cb107e6ca4e1e7fa90b70030b62496775a55dd189da3597a2837281a913074301d9f0b8b36b0f8a3593195f8b1dc86d2ddaaeb98c45af67a894455f927039c33c6e1b848d93e5fb0730d84aa48a42b920618665d07fc0a0f6a35889a71dcf51a68facf831284ec27352a21e4e9f813217d495847ef767089b6c0a97df1277303bd1d45e5308aa43560fc84e2b29bf8c75bdd318567face99e617bd8c321ecc6b1b5ae80590b5b5440e539e5a4a29d2348b0383e7a8c3a254b7792f13392ff78dc0f25b8a7a0fcd1257d6ebc0e58aecf8dd3602055cc35cd4d2ed33dadbb3c79dbe54fd9b2278b6ff8601a213523cf226c56612d73f0e22993df80df99ed91/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "extra": {
+          "position": 0,
+          "resolution": "1047x576"
+        },
+        "state": "BUFFERING",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501991,
+      "uuid": "fdfab7e1-6a08-4666-8669-dfecbe9a7daa"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1144421,
+            "resource_id": 4130755
+          },
+          "channel_sid": 402,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/2611826ff7a1655aa82c0e4b729ae80b4a8306f65862aa4658550e00ed228d2758005bd51e06a3d3bf1f72cda70927137a864f2c5c97c707f124d5c92a2c0f7d238d38658c006824842a5e3bd2c4369720d7e6a7f46079e0db2e5de6670224f8cd2cb107e6ca4e1e7fa90b70030b62496775a55dd189da3597a2837281a913074301d9f0b8b36b0f8a3593195f8b1dc86d2ddaaeb98c45af67a894455f927039c33c6e1b848d93e5fb0730d84aa48a42b920618665d07fc0a0f6a35889a71dcf51a68facf831284ec27352a21e4e9f813217d495847ef767089b6c0a97df1277303bd1d45e5308aa43560fc84e2b29bf8c75bdd318567face99e617bd8c321ecc6b1b5ae80590b5b5440e539e5a4a29d2348b0383e7a8c3a254b7792f13392ff78dc0f25b8a7a0fcd1257d6ebc0e58aecf8dd3602055cc35cd4d2ed33dadbb3c79dbe54fd9b2278b6ff8601a213523cf226c56612d73f0e22993df80df99ed91/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "extra": {
+          "position": 0,
+          "resolution": "1047x576"
+        },
+        "state": "BUFFERING",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501991,
+      "uuid": "66726b47-e8a8-4774-b543-07c4373218be"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1144421,
+            "resource_id": 4130755
+          },
+          "channel_sid": 402,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/2611826ff7a1655aa82c0e4b729ae80b4a8306f65862aa4658550e00ed228d2758005bd51e06a3d3bf1f72cda70927137a864f2c5c97c707f124d5c92a2c0f7d238d38658c006824842a5e3bd2c4369720d7e6a7f46079e0db2e5de6670224f8cd2cb107e6ca4e1e7fa90b70030b62496775a55dd189da3597a2837281a913074301d9f0b8b36b0f8a3593195f8b1dc86d2ddaaeb98c45af67a894455f927039c33c6e1b848d93e5fb0730d84aa48a42b920618665d07fc0a0f6a35889a71dcf51a68facf831284ec27352a21e4e9f813217d495847ef767089b6c0a97df1277303bd1d45e5308aa43560fc84e2b29bf8c75bdd318567face99e617bd8c321ecc6b1b5ae80590b5b5440e539e5a4a29d2348b0383e7a8c3a254b7792f13392ff78dc0f25b8a7a0fcd1257d6ebc0e58aecf8dd3602055cc35cd4d2ed33dadbb3c79dbe54fd9b2278b6ff8601a213523cf226c56612d73f0e22993df80df99ed91/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "extra": {
+          "bitrate": 2387841,
+          "position": 15000,
+          "resolution": "720x540"
+        },
+        "state": "HLS_TRACK_SWITCH",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501992,
+      "uuid": "0b627b5a-f134-4927-ba0f-ced8ecd344b9"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1144421,
+            "resource_id": 4130755
+          },
+          "channel_sid": 402,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/2611826ff7a1655aa82c0e4b729ae80b4a8306f65862aa4658550e00ed228d2758005bd51e06a3d3bf1f72cda70927137a864f2c5c97c707f124d5c92a2c0f7d238d38658c006824842a5e3bd2c4369720d7e6a7f46079e0db2e5de6670224f8cd2cb107e6ca4e1e7fa90b70030b62496775a55dd189da3597a2837281a913074301d9f0b8b36b0f8a3593195f8b1dc86d2ddaaeb98c45af67a894455f927039c33c6e1b848d93e5fb0730d84aa48a42b920618665d07fc0a0f6a35889a71dcf51a68facf831284ec27352a21e4e9f813217d495847ef767089b6c0a97df1277303bd1d45e5308aa43560fc84e2b29bf8c75bdd318567face99e617bd8c321ecc6b1b5ae80590b5b5440e539e5a4a29d2348b0383e7a8c3a254b7792f13392ff78dc0f25b8a7a0fcd1257d6ebc0e58aecf8dd3602055cc35cd4d2ed33dadbb3c79dbe54fd9b2278b6ff8601a213523cf226c56612d73f0e22993df80df99ed91/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "extra": {
+          "position": 15217
+        },
+        "state": "PLAYING",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501992,
+      "uuid": "26d8aaed-4647-4275-a25f-c2e9b830e252"
+    },
+    {
+      "data": {
+        "asset_id": 1144421,
+        "type": "live_hls",
+        "url": "http://er-cdn.ertelecom.ru/os/video/hls/2611826ff7a1655aa82c0e4b729ae80b4a8306f65862aa4658550e00ed228d2758005bd51e06a3d3bf1f72cda70927137a864f2c5c97c707f124d5c92a2c0f7d238d38658c006824842a5e3bd2c4369720d7e6a7f46079e0db2e5de6670224f8cd2cb107e6ca4e1e7fa90b70030b62496775a55dd189da3597a2837281a913074301d9f0b8b36b0f8a3593195f8b1dc86d2ddaaeb98c45af67a894455f927039c33c6e1b848d93e5fb0730d84aa48a42b920618665d07fc0a0f6a35889a71dcf51a68facf831284ec27352a21e4e9f813217d495847ef767089b6c0a97df1277303bd1d45e5308aa43560fc84e2b29bf8c75bdd318567face99e617bd8c321ecc6b1b5ae80590b5b5440e539e5a4a29d2348b0383e7a8c3a254b7792f13392ff78dc0f25b8a7a0fcd1257d6ebc0e58aecf8dd3602055cc35cd4d2ed33dadbb3c79dbe54fd9b2278b6ff8601a213523cf226c56612d73f0e22993df80df99ed91/playlist.m3u8",
+        "appversion": "1.32.0",
+        "time": 1173,
+        "subtype": "player.metric.prepared",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501992,
+      "uuid": "65ea3512-fe74-4713-b4eb-9da1ff1d7e01"
+    },
+    {
+      "data": {
+        "asset_id": 1144421,
+        "type": "live_hls",
+        "url": "http://er-cdn.ertelecom.ru/os/video/hls/2611826ff7a1655aa82c0e4b729ae80b4a8306f65862aa4658550e00ed228d2758005bd51e06a3d3bf1f72cda70927137a864f2c5c97c707f124d5c92a2c0f7d238d38658c006824842a5e3bd2c4369720d7e6a7f46079e0db2e5de6670224f8cd2cb107e6ca4e1e7fa90b70030b62496775a55dd189da3597a2837281a913074301d9f0b8b36b0f8a3593195f8b1dc86d2ddaaeb98c45af67a894455f927039c33c6e1b848d93e5fb0730d84aa48a42b920618665d07fc0a0f6a35889a71dcf51a68facf831284ec27352a21e4e9f813217d495847ef767089b6c0a97df1277303bd1d45e5308aa43560fc84e2b29bf8c75bdd318567face99e617bd8c321ecc6b1b5ae80590b5b5440e539e5a4a29d2348b0383e7a8c3a254b7792f13392ff78dc0f25b8a7a0fcd1257d6ebc0e58aecf8dd3602055cc35cd4d2ed33dadbb3c79dbe54fd9b2278b6ff8601a213523cf226c56612d73f0e22993df80df99ed91/playlist.m3u8",
+        "appversion": "1.32.0",
+        "time": 1891,
+        "subtype": "player.metric",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501992,
+      "uuid": "59e65fef-d32b-4814-8052-05130fd53d01"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1144421,
+            "resource_id": 4130755
+          },
+          "channel_sid": 402,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/2611826ff7a1655aa82c0e4b729ae80b4a8306f65862aa4658550e00ed228d2758005bd51e06a3d3bf1f72cda70927137a864f2c5c97c707f124d5c92a2c0f7d238d38658c006824842a5e3bd2c4369720d7e6a7f46079e0db2e5de6670224f8cd2cb107e6ca4e1e7fa90b70030b62496775a55dd189da3597a2837281a913074301d9f0b8b36b0f8a3593195f8b1dc86d2ddaaeb98c45af67a894455f927039c33c6e1b848d93e5fb0730d84aa48a42b920618665d07fc0a0f6a35889a71dcf51a68facf831284ec27352a21e4e9f813217d495847ef767089b6c0a97df1277303bd1d45e5308aa43560fc84e2b29bf8c75bdd318567face99e617bd8c321ecc6b1b5ae80590b5b5440e539e5a4a29d2348b0383e7a8c3a254b7792f13392ff78dc0f25b8a7a0fcd1257d6ebc0e58aecf8dd3602055cc35cd4d2ed33dadbb3c79dbe54fd9b2278b6ff8601a213523cf226c56612d73f0e22993df80df99ed91/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "state": "PREPARED",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501992,
+      "uuid": "464ce7d8-c54f-4041-ad3d-18a33be6a7bf"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1144421,
+            "resource_id": 4130755
+          },
+          "channel_sid": 402,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/2611826ff7a1655aa82c0e4b729ae80b4a8306f65862aa4658550e00ed228d2758005bd51e06a3d3bf1f72cda70927137a864f2c5c97c707f124d5c92a2c0f7d238d38658c006824842a5e3bd2c4369720d7e6a7f46079e0db2e5de6670224f8cd2cb107e6ca4e1e7fa90b70030b62496775a55dd189da3597a2837281a913074301d9f0b8b36b0f8a3593195f8b1dc86d2ddaaeb98c45af67a894455f927039c33c6e1b848d93e5fb0730d84aa48a42b920618665d07fc0a0f6a35889a71dcf51a68facf831284ec27352a21e4e9f813217d495847ef767089b6c0a97df1277303bd1d45e5308aa43560fc84e2b29bf8c75bdd318567face99e617bd8c321ecc6b1b5ae80590b5b5440e539e5a4a29d2348b0383e7a8c3a254b7792f13392ff78dc0f25b8a7a0fcd1257d6ebc0e58aecf8dd3602055cc35cd4d2ed33dadbb3c79dbe54fd9b2278b6ff8601a213523cf226c56612d73f0e22993df80df99ed91/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "extra": {
+          "position": 15217
+        },
+        "state": "STOPPED",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501994,
+      "uuid": "1a43743b-ece9-4c49-a2bc-c52e6d7d0519"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1728588,
+            "resource_id": 1933157
+          },
+          "channel_sid": 2501,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/2611826ff7a1655aa82c0e4b729ae80b4a8306f65862aa4658550e00ed228d2758005bd51e06a3d3bf1f72cda70927137a864f2c5c97c707f124d5c92a2c0f7d238d38658c006824842a5e3bd2c4369720d7e6a7f46079e0db2e5de6670224f8cd2cb107e6ca4e1e7fa90b70030b62496775a55dd189da3597a2837281a913074301d9f0b8b36b0f8a3593195f8b1dc86d2ddaaeb98c45af67a894455f927039c33c6e1b848d93e5fb0730d84aa48a42b920618665d07fc0a0f6a35889a71dcf51a68facf831284ec27352a21e4e9f813217d495847ef767089b6c0a97df1277303bd1d45e5308aa43560fc84e2b29bf8c75bdd318567face99e617bd8c321ecc6b1b5ae80590b5b5440e539e5a4a29d2348b0383e7a8c3a254b7792f13392ff78dc0f25b8a7a0fcd1257d6ebc0e58aecf8dd3602055cc35cd4d2ed33dadbb3c79dbe54fd9b2278b6ff8601a213523cf226c56612d73f0e22993df80df99ed91/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "extra": {
+          "position": 15217
+        },
+        "state": "STOPPED",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501994,
+      "uuid": "3e5f5707-6243-4fbf-b03b-55a0e51a0c88"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/resource/get_url/1144421/4130755",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 53,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501994,
+      "uuid": "5e98a446-f7fa-47b5-8945-b3c59f8e64ed"
+    },
+    {
+      "data": {
+        "asset_id": 1144421,
+        "type": "live_hls",
+        "url": "http://er-cdn.ertelecom.ru/os/video/hls/b47e4ddd74946f365fdb97320714cbbc30f5b674f557848a2ededad4d7bcf9304443743d2297ad8b6d32c27e0f8f14294b210186f0ea82b8198b80641742320e8db118fe311fe1a754cef67a0510650a5ebbe6dfbd4a5f1f15744a77c4f0eebc3a9335877c08a1fff7f8243c9fdba031a1bc3f8eee573b933c7b37eb8a8f936b62c3c69e9eb596a7b06336893f99ce6087d4e4b2e6a4c20051151af1261882e7453ccfb08cf51ef91a36bbf2681bc79fa7cddf03806ceffa6f31191c304d440c474236ce8a7cf112e077e331721bc29aea65a57ebfaaf560fe94f85758c73235496dd1ced96fed7967ee05562ce90c0780896a02c47bdeb7d34337e10aa0716a81c086dcf25534db96d7d85eb4669e62bd8fc98d77e3558e3f6783df6a834e9144631154254efa5307cea1ec818368fb83049fae723449d20c16f4f41cad409e2058b0a459afdaeb3cd6fa85328242c5414ab921a738002f63574958da2b335e/playlist.m3u8",
+        "appversion": "1.32.0",
+        "time": 146,
+        "subtype": "player.metric.goturl",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501994,
+      "uuid": "2131c539-97c9-4a02-995c-ed29ac8e7ba2"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1144421,
+            "resource_id": 4130755
+          },
+          "channel_sid": 402,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/b47e4ddd74946f365fdb97320714cbbc30f5b674f557848a2ededad4d7bcf9304443743d2297ad8b6d32c27e0f8f14294b210186f0ea82b8198b80641742320e8db118fe311fe1a754cef67a0510650a5ebbe6dfbd4a5f1f15744a77c4f0eebc3a9335877c08a1fff7f8243c9fdba031a1bc3f8eee573b933c7b37eb8a8f936b62c3c69e9eb596a7b06336893f99ce6087d4e4b2e6a4c20051151af1261882e7453ccfb08cf51ef91a36bbf2681bc79fa7cddf03806ceffa6f31191c304d440c474236ce8a7cf112e077e331721bc29aea65a57ebfaaf560fe94f85758c73235496dd1ced96fed7967ee05562ce90c0780896a02c47bdeb7d34337e10aa0716a81c086dcf25534db96d7d85eb4669e62bd8fc98d77e3558e3f6783df6a834e9144631154254efa5307cea1ec818368fb83049fae723449d20c16f4f41cad409e2058b0a459afdaeb3cd6fa85328242c5414ab921a738002f63574958da2b335e/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "state": "GOTSOURCE",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501994,
+      "uuid": "76a0f4f6-475f-4d7a-be55-5685c4d458c2"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1144421,
+            "resource_id": 4130755
+          },
+          "channel_sid": 402,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/2611826ff7a1655aa82c0e4b729ae80b4a8306f65862aa4658550e00ed228d2758005bd51e06a3d3bf1f72cda70927137a864f2c5c97c707f124d5c92a2c0f7d238d38658c006824842a5e3bd2c4369720d7e6a7f46079e0db2e5de6670224f8cd2cb107e6ca4e1e7fa90b70030b62496775a55dd189da3597a2837281a913074301d9f0b8b36b0f8a3593195f8b1dc86d2ddaaeb98c45af67a894455f927039c33c6e1b848d93e5fb0730d84aa48a42b920618665d07fc0a0f6a35889a71dcf51a68facf831284ec27352a21e4e9f813217d495847ef767089b6c0a97df1277303bd1d45e5308aa43560fc84e2b29bf8c75bdd318567face99e617bd8c321ecc6b1b5ae80590b5b5440e539e5a4a29d2348b0383e7a8c3a254b7792f13392ff78dc0f25b8a7a0fcd1257d6ebc0e58aecf8dd3602055cc35cd4d2ed33dadbb3c79dbe54fd9b2278b6ff8601a213523cf226c56612d73f0e22993df80df99ed91/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "extra": {
+          "position": 0,
+          "resolution": "720x540"
+        },
+        "state": "BUFFERING",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501994,
+      "uuid": "e9686f56-75e0-480b-a8fe-d8a437f2107a"
+    },
+    {
+      "data": {
+        "content": {
+          "asset": {
+            "id": 1144421,
+            "resource_id": 4130755
+          },
+          "channel_sid": 402,
+          "is_catchup": false,
+          "is_catchup_startover": false,
+          "stream_url": "http://er-cdn.ertelecom.ru/os/video/hls/b47e4ddd74946f365fdb97320714cbbc30f5b674f557848a2ededad4d7bcf9304443743d2297ad8b6d32c27e0f8f14294b210186f0ea82b8198b80641742320e8db118fe311fe1a754cef67a0510650a5ebbe6dfbd4a5f1f15744a77c4f0eebc3a9335877c08a1fff7f8243c9fdba031a1bc3f8eee573b933c7b37eb8a8f936b62c3c69e9eb596a7b06336893f99ce6087d4e4b2e6a4c20051151af1261882e7453ccfb08cf51ef91a36bbf2681bc79fa7cddf03806ceffa6f31191c304d440c474236ce8a7cf112e077e331721bc29aea65a57ebfaaf560fe94f85758c73235496dd1ced96fed7967ee05562ce90c0780896a02c47bdeb7d34337e10aa0716a81c086dcf25534db96d7d85eb4669e62bd8fc98d77e3558e3f6783df6a834e9144631154254efa5307cea1ec818368fb83049fae723449d20c16f4f41cad409e2058b0a459afdaeb3cd6fa85328242c5414ab921a738002f63574958da2b335e/playlist.m3u8",
+          "type": "live_hls"
+        },
+        "extra": {
+          "position": 15000
+        },
+        "state": "STOPPED",
+        "appversion": "1.32.0",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "player.state.change",
+      "timestamp": 1586501995,
+      "uuid": "97fe1d0f-0e08-4da7-9b14-0b27f3213de7"
+    },
+    {
+      "data": {
+        "arguments": {
+          "limit": "15"
+        },
+        "method": "GET",
+        "uri": "/api/v3/pages/library",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 960,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501995,
+      "uuid": "a667eb65-40a2-486f-94cc-fb4c4efc8616"
+    },
+    {
+      "data": {
+        "appversion": "1.32.0",
+        "time": 1571,
+        "subtype": "screen.launcher.metric",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501997,
+      "uuid": "f52b6e8e-1f15-4430-81cf-73c15a421a64"
+    },
+    {
+      "data": {
+        "arguments": {
+          "offset": "10"
+        },
+        "method": "GET",
+        "uri": "/api/v3/showcases/library/channels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 469,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501997,
+      "uuid": "9e53c204-09e3-4183-ac12-aad0cd87887c"
+    },
+    {
+      "data": {
+        "arguments": {
+          "offset": "20"
+        },
+        "method": "GET",
+        "uri": "/api/v3/showcases/library/channels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 320,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501997,
+      "uuid": "0f2c3e94-db7a-463d-a611-7a76bd527005"
+    },
+    {
+      "data": {
+        "appversion": "1.32.0",
+        "time": 106,
+        "subtype": "block.player_tv_guide.metric",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586501999,
+      "uuid": "e5dd1a47-5c7e-4168-92f1-bc82e23a46ab"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/er/multiscreen/status",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 90,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502009,
+      "uuid": "a4b61cb0-8c2b-4468-9ae4-8e6f6de5d4c0"
+    },
+    {
+      "data": {
+        "arguments": {},
+        "method": "GET",
+        "uri": "/er/catchup/status",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 39,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502009,
+      "uuid": "03b7a1ed-70b0-440f-b9f3-16032b87fab6"
+    },
+    {
+      "data": {
+        "arguments": {
+          "limit": "15"
+        },
+        "method": "GET",
+        "uri": "/api/v3/pages/library",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 865,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502009,
+      "uuid": "8376917f-f79a-4faf-8d56-6603781d03c7"
+    },
+    {
+      "data": {
+        "appversion": "1.32.0",
+        "time": 4932,
+        "subtype": "screen.launcher.metric",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502011,
+      "uuid": "d4cf4fe5-ca26-45fd-a0fe-b38bfa91714d"
+    },
+    {
+      "data": {
+        "arguments": {
+          "offset": "10"
+        },
+        "method": "GET",
+        "uri": "/api/v3/showcases/library/channels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 1141,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502011,
+      "uuid": "fc3f1157-371c-42d7-9e46-11bb0ace7f87"
+    },
+    {
+      "data": {
+        "arguments": {
+          "offset": "20"
+        },
+        "method": "GET",
+        "uri": "/api/v3/showcases/library/channels",
+        "appversion": "1.32.0",
+        "subtype": "http.metric",
+        "time": 303,
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502012,
+      "uuid": "97567da3-9f92-4ba7-8e78-36443f41c410"
+    },
+    {
+      "data": {
+        "reason": "102166843",
+        "appversion": "1.32.0",
+        "time": 40458,
+        "subtype": "internal.inconsistency",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502051,
+      "uuid": "e8da1548-2946-42b7-abd4-e0593a664d0c"
+    },
+    {
+      "data": {
+        "reason": "76124913",
+        "appversion": "1.32.0",
+        "time": 40386,
+        "subtype": "internal.inconsistency",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502051,
+      "uuid": "cf6b94cb-2d3c-4fd5-870c-e6793c02f86b"
+    },
+    {
+      "data": {
+        "reason": "-952706521",
+        "appversion": "1.32.0",
+        "time": 40402,
+        "subtype": "internal.inconsistency",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502051,
+      "uuid": "ac618376-2f64-43a3-acd3-08e08b81e45a"
+    },
+    {
+      "data": {
+        "reason": "1691311952",
+        "appversion": "1.32.0",
+        "time": 40259,
+        "subtype": "internal.inconsistency",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502051,
+      "uuid": "6e958063-980d-4801-916e-a3c7b43f5596"
+    },
+    {
+      "data": {
+        "reason": "606167993",
+        "appversion": "1.32.0",
+        "time": 40420,
+        "subtype": "internal.inconsistency",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502051,
+      "uuid": "32ab680b-a50f-42b5-8aae-acf2a890ae64"
+    },
+    {
+      "data": {
+        "reason": "1697836035",
+        "appversion": "1.32.0",
+        "time": 40375,
+        "subtype": "internal.inconsistency",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502051,
+      "uuid": "523770c8-0653-421f-bfc6-5f4fccfcf796"
+    },
+    {
+      "data": {
+        "reason": "102165040",
+        "appversion": "1.32.0",
+        "time": 40501,
+        "subtype": "internal.inconsistency",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502051,
+      "uuid": "79aeaba0-757a-4d3e-9705-a76e1b891341"
+    },
+    {
+      "data": {
+        "reason": "78067103",
+        "appversion": "1.32.0",
+        "time": 40264,
+        "subtype": "internal.inconsistency",
+        "connectionType": "eth",
+        "fwbuildver": "202004081158",
+        "serialnumber": "UHD300X2GR000063"
+      },
+      "name": "app.mon",
+      "timestamp": 1586502051,
+      "uuid": "2913b787-ee57-40ce-a1f3-be738f3c67b3"
+    }
+  ]
+}
