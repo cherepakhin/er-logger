@@ -36,10 +36,10 @@ build er-logger jar:
     expire_in: 1 days
     paths:
       - $GRADLE_JAR_PATH
-#  cache:
-#    key: $CI_PROJECT_NAME
-#    paths:
-#      - .gradle/caches/
+  cache:
+    key: $CI_PROJECT_NAME
+    paths:
+      - .gradle/caches/
   tags:
     - docker-java
 

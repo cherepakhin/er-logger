@@ -19,7 +19,7 @@ FROM registry.rd.ertelecom.ru/devops/docker/alpine-oraclejdk8:latest
 #  - Debugging: busybox-extras curl
 #  - Tomcat: tomcat-native (performance improvements with native libs)
 
-RUN apk add --update --no-cache busybox-extras curl tomcat-native
+RUN apk add --update --no-cache busybox-extras curl
 
 # Environment variables:
 #   JAVA_OPTS             - JVM options for the app
