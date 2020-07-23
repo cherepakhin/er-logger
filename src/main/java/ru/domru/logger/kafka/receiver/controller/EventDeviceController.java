@@ -36,7 +36,7 @@ public class EventDeviceController {
         this.executorService = Executors.newFixedThreadPool(100);
     }
 
-    @GetMapping(value = {"/","/{msg}"})
+    @GetMapping(value = {"/", "/{msg}"})
     public ResponseEntity<String> echo(@PathVariable(name = "msg", required = false) String msg) {
         if (msg == null) {
             msg = "-";
