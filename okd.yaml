@@ -7,8 +7,6 @@ parameters:
     value: kafka-to-es
   - name: CI_COMMIT_REF_SLUG
     value: master
-  - name: PORT
-    value: "8080"
 objects:
 - apiVersion: apps/v1
   kind: Deployment
@@ -66,5 +64,5 @@ objects:
       app: er-logger
     ports:
       - protocol: TCP
-        port: ${PORT}
+        port: 8080
     type: LoadBalancer
