@@ -66,19 +66,25 @@ build er-logger docker:
     - docker
   dependencies:
     - build er-logger jar
-#  only:
-#    - develop
-#    - /^v\d+\.\d+\.\d+$/
-#    - /^release\/\d+\.\d+\.\d+$/
+  only:
+    - /^v\d+\.\d+\.\d+$/
+    - /^release\/\d+\.\d+\.\d+$/
+    - tags
 
 deploy:
-  image: registry.rd.ertelecom.ru/registry/helm_ci/helm:ci
+  image: quay.io/openshift/origin-cli:4.5
   stage: deploy
   dependencies:
     - build er-logger docker
   script:
-    - |
-      helm template ./helm \
-      --set image.repository="$CI_REGISTRY_IMAGE" \
-      --set image.tag="$CI_COMMIT_REF_SLUG" |\
-      kubectl apply	-f -
+    - oc login --token=$OC_TOKEN  https://api.okd.perm.ertelecom.ru:6443 --insecure-skip-tls-verify
+    - oc process -f okd.yaml  -p CI_REGISTRY_IMAGE="$CI_REGISTRY_IMAGE"
+      -p CI_COMMIT_REF_SLUG="$CI_COMMIT_REF_SLUG" -o yaml
+    - oc process -f okd.yaml -o yaml  -p CI_REGISTRY_IMAGE="$CI_REGISTRY_IMAGE"
+      -p CI_COMMIT_REF_SLUG="$CI_COMMIT_REF_SLUG" |
+      oc apply	-f -
+  tags:
+    - k8s
+  only:
+    - /^release\/\d+\.\d+\.\d+$/
+    - tags
