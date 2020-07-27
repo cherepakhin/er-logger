@@ -1,29 +1,29 @@
 apiVersion: v1
 kind: Template
 metadata:
-  name: er-logger-template
+  name: ${NAME}-template
 parameters:
-  - name: CI_REGISTRY_IMAGE
-    value: kafka-to-es
+  - name: NAME
+    value: er-logger
   - name: CI_COMMIT_REF_SLUG
     value: master
 objects:
 - apiVersion: apps/v1
   kind: Deployment
   metadata:
-    name: er-logger
+    name: ${NAME}
     labels:
-      app: er-logger
+      app: ${NAME}
   spec:
     replicas: 2
     selector:
       matchLabels:
-        app: er-logger
+        app: ${NAME}
     template:
       metadata:
         labels:
-          app: er-logger
-          deploymentconfig: er-logger
+          app: ${NAME}
+          deploymentconfig: ${NAME}
       spec:
         imagePullSecrets:
           - name: registry.rd.ertelecom.ru
@@ -32,8 +32,8 @@ objects:
               limits:
                 memory: 512Mi
 
-            name: er-logger
-            image: ${CI_REGISTRY_IMAGE}:${CI_COMMIT_REF_SLUG}
+            name: ${NAME}
+            image: ${NAME}:${CI_COMMIT_REF_SLUG}
             ports:
               - containerPort: 8080
                 protocol: TCP
@@ -58,11 +58,24 @@ objects:
 - apiVersion: v1
   kind: Service
   metadata:
-    name: er-logger-svc
+    name: ${NAME}-svc
   spec:
     selector:
-      app: er-logger
+      app: ${NAME}
     ports:
       - protocol: TCP
         port: 8080
     type: LoadBalancer
+- apiVersion: route.openshift.io/v1
+  kind: Route
+  metadata:
+    name: ${NAME}
+  spec:
+    host: ${NAME}-kafka-er.apps.okd.perm.ertelecom.ru
+    to:
+      kind: Service
+      name: ${NAME}-svc
+      weight: 100
+    port:
+      targetPort: 8080
+    wildcardPolicy: None

@@ -77,9 +77,9 @@ deploy:
     - build er-logger docker
   script:
     - oc login --token=$OC_TOKEN  https://api.okd.perm.ertelecom.ru:6443 --insecure-skip-tls-verify
-    - oc process -f okd.yaml  -p CI_REGISTRY_IMAGE="$CI_REGISTRY_IMAGE"
+    - oc process -f okd.yaml
       -p CI_COMMIT_REF_SLUG="$CI_COMMIT_REF_SLUG" -o yaml
-    - oc process -f okd.yaml -o yaml  -p CI_REGISTRY_IMAGE="$CI_REGISTRY_IMAGE"
+    - oc process -f okd.yaml -o yaml
       -p CI_COMMIT_REF_SLUG="$CI_COMMIT_REF_SLUG" |
       oc apply	-f -
   tags:
