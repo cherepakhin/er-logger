@@ -7,8 +7,6 @@ variables:
 deploy:
   image: quay.io/openshift/origin-cli:4.5
   stage: deploy
-  dependencies:
-    - build er-logger docker
   script:
     - oc login --token=$OC_TOKEN  https://api.okd.perm.ertelecom.ru:6443 --insecure-skip-tls-verify
     - oc process -f okd.yaml  -p CI_REGISTRY_IMAGE="$CI_REGISTRY_IMAGE"
