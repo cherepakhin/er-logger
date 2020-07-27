@@ -8,7 +8,7 @@ parameters:
   - name: CI_COMMIT_REF_SLUG
     value: master
   - name: PORT
-    value: 8080
+    value: "8080"
 objects:
 - apiVersion: apps/v1
   kind: Deployment
