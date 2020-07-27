@@ -16,6 +16,3 @@ deploy:
       oc apply	-f -
   tags:
     - k8s
-  only:
-    - /^release\/\d+\.\d+\.\d+$/
-    - tags
