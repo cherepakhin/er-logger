@@ -37,7 +37,7 @@ objects:
             name: er-logger
             image: ${CI_REGISTRY_IMAGE}:${CI_COMMIT_REF_SLUG}
             ports:
-              - containerPort: ${PORT}
+              - containerPort: 8080
                 protocol: TCP
             env:
               - name: KAFKA_HOST
