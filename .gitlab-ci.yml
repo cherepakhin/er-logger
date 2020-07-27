@@ -78,10 +78,10 @@ deploy:
   script:
     - oc login --token=$OC_TOKEN  https://api.okd.perm.ertelecom.ru:6443 --insecure-skip-tls-verify
     - oc process -f okd.yaml
-      -p CI_COMMIT_REF_SLUG="$CI_COMMIT_REF_SLUG" -o yaml
-    - oc process -f okd.yaml -o yaml
-      -p CI_COMMIT_REF_SLUG="$CI_COMMIT_REF_SLUG" |
-      oc apply	-f -
+      -p CI_REGISTRY_IMAGE=$CI_REGISTRY_IMAGE
+      -p CI_COMMIT_REF_SLUG="$CI_COMMIT_REF_SLUG" -o yaml > deploy.yaml
+    - cat deploy.yaml
+    - oc apply	-f deploy.yaml
   tags:
     - k8s
   only:

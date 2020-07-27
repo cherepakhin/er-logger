@@ -5,6 +5,8 @@ metadata:
 parameters:
   - name: NAME
     value: er-logger
+  - name: CI_REGISTRY_IMAGE
+    value: er-logger
   - name: CI_COMMIT_REF_SLUG
     value: master
 objects:
@@ -33,7 +35,7 @@ objects:
                 memory: 512Mi
 
             name: ${NAME}
-            image: ${NAME}:${CI_COMMIT_REF_SLUG}
+            image: ${CI_REGISTRY_IMAGE}:${CI_COMMIT_REF_SLUG}
             ports:
               - containerPort: 8080
                 protocol: TCP
