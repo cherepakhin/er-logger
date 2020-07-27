@@ -17,7 +17,4 @@ objects:
   spec:
     selector:
       app: er-logger
-    ports:
-      - protocol: "TCP"
-        port: ${PORT}
     type: LoadBalancer
