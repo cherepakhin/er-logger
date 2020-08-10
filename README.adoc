@@ -1,0 +1,73 @@
+= Приемник событий от устройств и отправка их в Kafka
+
+Переменные окружения для настройки
+
+|===
+|Название |Значение по умолчанию |Назначение
+
+|KAFKA_HOST
+|kafka-svc.prod:9092
+|Сервис Kafka
+
+|KAFKA_TOPIC
+|er-log
+|Топик для принятых сообщений
+
+|USE_SIMPLE_DECODER
+|1
+|В программе предусмотрено два способа проверки токена - простая (=1) и углубленная (=0). Настройкой выбирается способ.
+|===
+
+
+Порт по умолчанию 8080
+
+**Endpoints**
+
+Endpoint для приемки сообщений
+
+[source,http request]
+----
+POST /logging/device/events
+Content-Type: application/x-www-form-urlencoded
+X-Auth-Token: xxxx
+
+events=%7B%22events%22....
+----
+
+Echo endpoint для проверки
+
+[source,http request]
+----
+GET /echo/{msg}
+
+----
+
+**Настройка Prometheus**
+
+Просмотр метрик, отправляемых в Prometheus:
+
+[source,http request]
+----
+GET /actuator/prometheus
+
+# HELP jvm_buffer_memory_used_bytes An estimate of the memory that the Java virtual machine is using for this buffer pool
+# TYPE jvm_buffer_memory_used_bytes gauge
+jvm_buffer_memory_used_bytes{id="mapped",} 0.0
+jvm_buffer_memory_used_bytes{id="direct",} 90112.0
+# HELP process_cpu_usage The "recent cpu usage" for the Java Virtual Machine process
+# TYPE process_cpu_usage gauge
+process_cpu_usage 0.0
+..
+----
+
+Запрос prometheus для получения rps:
+
+----
+irate(http_server_requests_seconds_count{instance="192.168.1.10:8080", job="er_logger", uri="/echo/{msg}"}[1m])
+----
+
+Запрос prometheus для получения оценки времени ответа:
+
+----
+irate(http_server_requests_seconds_sum{instance="192.168.1.10:8080", job="er_logger", uri="/echo/{msg}"}[5m]) / irate(http_server_requests_seconds_count{instance="192.168.1.10:8080", job="spring1.10", uri="/echo/{msg}"}[5m])
+----

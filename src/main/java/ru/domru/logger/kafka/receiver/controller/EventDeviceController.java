@@ -36,7 +36,7 @@ public class EventDeviceController {
         this.executorService = Executors.newFixedThreadPool(100);
     }
 
-    @GetMapping(value = {"/", "/{msg}"})
+    @GetMapping(value = {"/echo", "/echo/{msg}"})
     public ResponseEntity<String> echo(@PathVariable(name = "msg", required = false) String msg) {
         if (msg == null) {
             msg = "-";
@@ -74,16 +74,6 @@ public class EventDeviceController {
             produceData(tokenString, body);
         } catch (Exception e) {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
-        }
-        return new ResponseEntity<>(HttpStatus.OK);
-    }
-
-    @PostMapping(consumes = {MediaType.APPLICATION_FORM_URLENCODED_VALUE})
-    @RequestMapping("/logging/device/events/stub")
-    public ResponseEntity<String> receiveEventStub(HttpServletRequest httpServletRequest,
-                                                   @RequestBody MultiValueMap<String, Object> body) {
-        if (!existTokenInHeader(httpServletRequest)) {
-            return new ResponseEntity<>(HttpStatus.FORBIDDEN);
         }
         return new ResponseEntity<>(HttpStatus.OK);
     }
