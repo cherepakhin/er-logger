@@ -1,9 +1,5 @@
 package ru.domru.logger.kafka.receiver.controller;
 
-
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,11 +17,13 @@ import ru.domru.logger.kafka.receiver.service.EventDeviceProducer;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
-import java.util.List;
-import java.util.Map;
 
-import static junit.framework.TestCase.*;
+import static junit.framework.TestCase.assertFalse;
+import static junit.framework.TestCase.assertTrue;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(MockitoJUnitRunner.class)
 public class EventDeviceControllerTest {
@@ -34,8 +32,8 @@ public class EventDeviceControllerTest {
     final String X_AUTH_TOKEN_HEADER_NAME = "X-Auth-Token";
     final String VIEW = "View";
     final String STB3 = "stb3";
-    String BODY = "events=%7B%22events%22%3A%5B%7B%22data%22%3A%7B%22identifier%22%3A1838387%2C%22tag%22%3A%22poster_channel_grid_blueprint%22%2C%22appversion%22%3A%221.32.0%22%2C%22subtype%22%3A%22image.resource.missing.error%22%2C%22connectionType%22%3A%22eth%22%2C%22fwbuildver%22%3A%22202004081158%22%2C%22serialnumber%22%3A%22UHD300X2GR000063%22%7D%2C%22name%22%3A%22app.mon%22%2C%22timestamp%22%3A1586501905%2C%22uuid%22%3A%22fa49ee71-2549-4737-8032-1b2cd0a15618%22%7D%5D%7D";
     final String body = "{\"events\":[{\"data\":{\"identifier\":1838387,\"tag\":\"poster_channel_grid_blueprint\",\"appversion\":\"1.32.0\",\"subtype\":\"image.resource.missing.error\",\"connectionType\":\"eth\",\"fwbuildver\":\"202004081158\",\"serialnumber\":\"UHD300X2GR000063\"},\"name\":\"app.mon\",\"timestamp\":1586501905,\"uuid\":\"fa49ee71-2549-4737-8032-1b2cd0a15618\"}]}";
+    String BODY = "events=%7B%22events%22%3A%5B%7B%22data%22%3A%7B%22identifier%22%3A1838387%2C%22tag%22%3A%22poster_channel_grid_blueprint%22%2C%22appversion%22%3A%221.32.0%22%2C%22subtype%22%3A%22image.resource.missing.error%22%2C%22connectionType%22%3A%22eth%22%2C%22fwbuildver%22%3A%22202004081158%22%2C%22serialnumber%22%3A%22UHD300X2GR000063%22%7D%2C%22name%22%3A%22app.mon%22%2C%22timestamp%22%3A1586501905%2C%22uuid%22%3A%22fa49ee71-2549-4737-8032-1b2cd0a15618%22%7D%5D%7D";
     EventDeviceController eventDeviceController;
 
     @Mock
@@ -86,7 +84,27 @@ public class EventDeviceControllerTest {
         MockHttpServletRequest httpServletRequest = new MockHttpServletRequest();
         assertFalse(eventDeviceController.existTokenInHeader(httpServletRequest));
 
-        httpServletRequest.addHeader(X_AUTH_TOKEN_HEADER_NAME,TOKEN);
+        httpServletRequest.addHeader(X_AUTH_TOKEN_HEADER_NAME, TOKEN);
         assertTrue(eventDeviceController.existTokenInHeader(httpServletRequest));
+    }
+
+    @Test
+    public void echo() throws Exception {
+        String OK = "ok";
+        String MESSAGE = "MESSAGE";
+        mockMvc.perform(get("/echo/" + MESSAGE)
+                .contentType(MediaType.ALL))
+                .andExpect(status().isOk())
+                .andExpect(content().string(OK + ":" + MESSAGE))
+        ;
+    }
+
+    @Test
+    public void echoEmpty() throws Exception {
+        mockMvc.perform(get("/echo")
+                .contentType(MediaType.ALL))
+                .andExpect(status().isOk())
+                .andExpect(content().string("ok:-"))
+        ;
     }
 }
