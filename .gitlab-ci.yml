@@ -26,7 +26,7 @@ build er-logger jar:
       else
         GRADLE_TASK_NAME=${GRADLE_BUILD_TASK_NAME};
       fi
-    - gradle GRADLE_TASK_NAME \
+    - gradle $GRADLE_TASK_NAME \
       -Dsonar.projectKey=$CI_PROJECT_NAME \
       -Dsonar.host.url=$SONAR_URL \
       -Dsonar.login=$SONAR_TOKEN
